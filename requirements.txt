@@ -1,0 +1,5 @@
+# The analysis imports numpy and pandas; psycopg 3 is used for PostgreSQL.
+# These are compatible ranges, NOT a claim about the exact original local versions.
+numpy>=1.26,<3
+pandas>=2.2,<3
+psycopg[binary]>=3.1,<4

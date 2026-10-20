@@ -1,0 +1,40 @@
+{
+  "source": "Frozen MIMIC-IV v3.1 local G10 v1.1 output, 2026-10-16",
+  "frozen_protocol": "G9 dovss_stable120_no_otherpressor2h",
+  "bootstrap_seed": 20261015,
+  "bootstrap_replicates": 500,
+  "population": {
+    "eligible_stays": 2260,
+    "unique_subjects": 2168
+  },
+  "primary_action_counts": {
+    "NE_first": 204,
+    "AVP_first": 139,
+    "near_simultaneous": 10,
+    "no_clear_action": 1907
+  },
+  "primary_untruncated_6h": {
+    "spec_name": "primary_dovss120_immediate",
+    "horizon_hours": 6,
+    "weight_version": "untruncated",
+    "risk_NE_first": 0.197381,
+    "risk_AVP_first": 0.184511,
+    "risk_difference_NE_minus_AVP": 0.01287,
+    "risk_ratio_NE_over_AVP": 1.069751,
+    "RD_CI_low": -0.080711,
+    "RD_CI_high": 0.103776,
+    "RR_CI_low": 0.678772,
+    "RR_CI_high": 1.78867
+  },
+  "sensitivity_6h_untruncated_RD": {
+    "sensitivity_dovss240_immediate": 0.000419,
+    "sensitivity_cum30_120_immediate": 0.011444
+  },
+  "tolerances": {
+    "risk_absolute": 0.005,
+    "risk_difference_absolute": 0.005,
+    "risk_ratio_absolute": 0.05,
+    "bootstrap_CI_bound_absolute": 0.025,
+    "sensitivity_RD_absolute": 0.015
+  }
+}

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this software and the underlying MIMIC-IV v3.1 dataset."
+title: "First meaningful norepinephrine versus vasopressin de-escalation: clone-censor-weight target-trial emulation code"
+type: software
+authors:
+  - family-names: Yao
+    given-names: Zheng
+    orcid: "https://orcid.org/0009-0008-4994-6493"
+  - family-names: Fang
+    given-names: Zhaotao
+  - family-names: Zhu
+    given-names: Shijia
+version: "1.0.0"
+date-released: "2026-10-20"
+keywords:
+  - septic shock
+  - MIMIC-IV
+  - target trial emulation
+  - clone-censor-weight
+  - norepinephrine
+  - vasopressin
